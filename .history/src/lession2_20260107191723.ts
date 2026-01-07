@@ -78,18 +78,3 @@ console.log("Some Value:", someValue);
 let strLegth: number = (someValue as string).length;
 let strLegth2: number = (<string>someValue).length;
 console.log("String Length:", strLegth, strLegth2);
-
-let dataaa: {
-    id:number, title: string, description: null | string;timeLearn?:number | undefined;
-} = {
-    id: 1,
-    title: "Introduction to TypeScript",
-    description: null,
-    
-};
-
-dataaa.timeLearn = undefined;
-dataaa.description = null;
-dataaa.title ="abc";
-
-console.log("Dataaa:", dataaa);

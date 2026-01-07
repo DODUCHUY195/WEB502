@@ -91,5 +91,3 @@ let dataaa: {
 dataaa.timeLearn = undefined;
 dataaa.description = null;
 dataaa.title ="abc";
-
-console.log("Dataaa:", dataaa);
